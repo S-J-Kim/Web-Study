@@ -1,17 +1,16 @@
 body{
     text-align: center;
-    font-family: 'D2Coding', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Bahnschrift", 'Arial Narrow', Arial, sans-serif;
     align-content: center;
 }
 
+div{margin: 100px 0;}
 
 h1{
     border: 5px dotted rgba(76, 69, 165, 0.623);
     font-size: 70px;
-    padding: 0;
-    margin: 0 auto;
-    height: auto;
-    width: 30%;
+    padding: 5px;
+    display: inline;
 }
 
 h1 > a{text-decoration: none; color: darkslateblue;}
@@ -20,15 +19,15 @@ h1 > a{text-decoration: none; color: darkslateblue;}
 
 ul > li > a{color: rgba(150, 207, 57, 0.678);}
 
-ul{margin-top: 50px;}
+ul{margin-top: 50px; padding: 0%;}
 
 li{
     display: inline;
     font: outline;
     font-weight: bold;
     font-size: 35px;
-    margin-left: 20px;
+    margin: 10px;
 }
-#description {color:grey; font-size: medium; text-align: center;}
+#description {color:grey; font-size: medium; text-align: center; font-style: italic;}
 
-img {display: block; margin: 0px auto;}
+img {display: block; margin: 0px auto; font-style: italic;}
