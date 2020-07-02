@@ -1,33 +1,78 @@
 body{
-    text-align: center;
-    font-family: "Bahnschrift", 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    font-family: "Noto Sans CJK KR", "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
     align-content: center;
+    background: black;
 }
 
-div{margin: 100px 0;}
-
-h1{
-    border: 5px dotted rgba(76, 69, 165, 0.623);
-    font-size: 70px;
-    padding: 5px;
-    display: inline;
+.content{
+    display: grid;
+    width: 800px;
+    padding: 30px;
+    background: black;
+    margin: auto;
+    color: honeydew;
+    grid-template-rows: 200px 50px auto;
 }
 
-h1 > a{text-decoration: none; color: darkslateblue;}
-
-#selected{color: darksalmon;}
-
-ul > li > a{color: rgba(150, 207, 57, 0.678);}
-
-ul{margin-top: 50px; padding: 0%;}
-
-li{
-    display: inline;
-    font: outline;
+.title{
+    color: whitesmoke;
+    font-size: 50px;
     font-weight: bold;
-    font-size: 35px;
-    margin: 10px;
 }
-#description {color:grey; font-size: medium; text-align: center; font-style: italic;}
 
-img {display: block; margin: 0px auto; font-style: italic;}
+.sub-title{
+    color:gray;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.song-list{
+    display: grid;
+    row-gap: 15px;
+}
+
+.song-template{
+    display: inline-flex;
+    height: 85px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+    grid-template-rows: 69px, 1fr;
+}
+
+img{
+    width: 69px;
+    height: 70px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.cover{
+    width: 85px;
+    height: 85px;
+}
+
+.song-info{
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.song-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.artist{
+    font-size: 15px;
+    font-weight: lighter;
+    color: slategray;
+    width: auto;
+}
+
+.more{
+    display: inline-block;
+    grid-template-rows: auto 1fr;
+}
