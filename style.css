@@ -12,7 +12,7 @@ body{
     background: black;
     margin: auto;
     color: honeydew;
-    grid-template-rows: 200px 50px auto;
+    grid-template-rows: 150px 80px auto;
 }
 
 .title{
@@ -23,13 +23,19 @@ body{
 
 .sub-title{
     color:gray;
-    font-size: 15px;
-    font-weight: lighter;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.number-of-songs{
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .song-list{
     display: grid;
-    row-gap: 15px;
+    row-gap: 20px;
 }
 
 .song-template{
@@ -64,11 +70,12 @@ img{
     font-weight: bold;
     height: 45px;
     line-height: 45px;
+    color: #c5c5c5;
 }
 
 .artist{
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: normal;
     color: #b1b0b0;
     height: 30px;
     line-height: 30px;
