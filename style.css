@@ -1,15 +1,14 @@
 body{
     display: grid;
-    font-family: "Noto Sans CJK KR", "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+    font-family: "G마켓 산스", helvetica, "Apple SD Gothic Neo", sans-serif;
     align-content: center;
-    background: black;
+    background: rgb(59, 63, 117);
 }
 
 .content{
     display: grid;
     width: 800px;
     padding: 30px;
-    background: black;
     margin: auto;
     color: honeydew;
     grid-template-rows: 150px 80px auto;
@@ -41,15 +40,14 @@ body{
 .song-template{
     display: flex;
     height: 85px;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(12, 12, 12);
     border-radius: 10px;
 }
 
 img{
-    width: 69px;
-    height: 70px;
-    margin: 8px;
-    border-radius: 8px;
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
 }
 
 .cover{
@@ -60,17 +58,17 @@ img{
 .song-info{
     display: grid;
     grid-template-rows: 3fr 2fr;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .song-title{
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     height: 45px;
     line-height: 45px;
-    color: #c5c5c5;
+    color: #e6e3e3;
 }
 
 .artist{
@@ -87,7 +85,14 @@ img{
 
 .album{
     font-size: 13px;
+    font-weight: lighter;
     padding-left: 10px;
     padding-top: 9px;
     color: #797979;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 85px 1fr;
+    column-gap: 10px;
 }
