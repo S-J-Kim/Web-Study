@@ -96,3 +96,26 @@ img{
     grid-template-columns: 85px 1fr;
     column-gap: 10px;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type="text"] {
+    font-family: "G마켓 산스";
+    font-size: 40px;
+    height: 60px;
+    color: #e6e3e3;
+    background-color: rgb(59, 63, 117);
+    border: none;
+    outline: rgb(59, 63, 117);
+    transition: background-color .3s;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  input[type="text"]:hover{
+      background-color: rgb(42, 45, 83);
+  }
